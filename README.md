@@ -12,6 +12,8 @@
 
 •  PostgreSQL
 
+•  Spring Security
+
 
 ## Установка и настройка
 
