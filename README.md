@@ -80,6 +80,9 @@ accountRepository.save(account2);
 Шаг 4: Запуск приложения
 mvn spring-boot:run
 
+Шаг 5: Доступ к документации Swagger
+После запуска приложения вы можете получить доступ к документации Swagger по адресу: http://localhost:8080/swagger-ui.html.
+
 Использование API
 Создание учетной записи
 POST /api/accounts
