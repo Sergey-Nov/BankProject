@@ -20,8 +20,12 @@ public class DataInitializationService {
         account1.setBalance(new BigDecimal("1000.00"));
         accountRepository.save(account1);
 
-        Account account2 = new Account("Den Kruglov", "5678");
+        Account account2 = new Account("Den Krylov", "5678");
         account2.setBalance(new BigDecimal("2000.00"));
         accountRepository.save(account2);
+
+        Account account3 = new Account("Alex Petrov", "4321");
+        account3.setBalance(new BigDecimal("3000.00"));
+        accountRepository.save(account3);
     }
 }
